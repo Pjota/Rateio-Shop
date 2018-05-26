@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- 
+	Usage:
+
+	To localize the description, use the following format for the description element.
+	<description>
+	<text xml:lang="en">English App description goes here</text>
+	<text xml:lang="fr">French App description goes here</text>
+	<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+
+	To localize the name, use the following format for the name element.
+	<name>
+	<text xml:lang="en">English App name goes here</text>
+	<text xml:lang="fr">French App name goes here</text>
+	<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+-->
+<application xmlns="http://ns.adobe.com/air/application/28.0">
+  <id>com.rateiodigital.livres</id>
+  <versionNumber>1.0.3</versionNumber>
+  <filename>Instituto Livres</filename>
+  <description/>
+  <name>Instituto Livres</name>
+  <copyright/>
+  <initialWindow>
+    <content>rateio-shop-ios-dist.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>cpu</renderMode>
+    <autoOrients>false</autoOrients></initialWindow>
+ <icon>
+    <image29x29>icones/icon29.png</image29x29>
+    <image57x57>icones/icon57.png</image57x57>
+    <image114x114>icones/icon114.png</image114x114>
+    <image512x512>icones/icon512.png</image512x512>
+    <image48x48>icones/icon48.png</image48x48>
+    <image72x72>icones/icon72.png</image72x72>
+    <image50x50>icones/icon50.png</image50x50>
+    <image58x58>icones/icon58.png</image58x58>
+    <image100x100>icones/icon100.png</image100x100>
+    <image144x144>icones/icon144.png</image144x144>
+    <image1024x1024>icones/icon1024.png</image1024x1024>
+    <image40x40>icones/icon40.png</image40x40>
+    <image76x76>icones/icon76.png</image76x76>
+    <image80x80>icones/icon80.png</image80x80>
+    <image120x120>icones/icon120.png</image120x120>
+    <image152x152>icones/icon152.png</image152x152>
+    <image180x180>icones/icon180.png</image180x180>
+    <image60x60>icones/icon60.png</image60x60>
+    <image75x75>icones/icon75.png</image75x75>
+    <image87x87>icones/icon87.png</image87x87>
+    <image167x167>icones/icon167.png</image167x167>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  
+  <supportedLanguages>pt</supportedLanguages>
+  <iPhone>
+    <InfoAdditions><![CDATA[
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+  </dict>
+  <key>UIDeviceFamily</key>
+  <array>
+    <string>1</string>
+    <string>2</string>
+  </array>
+]]></InfoAdditions>
+
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </iPhone>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <extensions>
+    <extensionID>com.myflashlab.air.extensions.videoPlayer</extensionID>
+    <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
+  </extensions>
+</application>

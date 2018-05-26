@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- 
+	Usage:
+
+	To localize the description, use the following format for the description element.
+	<description>
+	<text xml:lang="en">English App description goes here</text>
+	<text xml:lang="fr">French App description goes here</text>
+	<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+
+	To localize the name, use the following format for the name element.
+	<name>
+	<text xml:lang="en">English App name goes here</text>
+	<text xml:lang="fr">French App name goes here</text>
+	<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+-->
+<application xmlns="http://ns.adobe.com/air/application/28.0">
+  <id>com.rateiodigital.shop</id>
+  <versionNumber>1.0.0</versionNumber>
+  <versionLabel></versionLabel>
+  <filename>App Desapego</filename>
+  <description/>
+  <name>App Desapego</name>
+  <copyright/>
+  <initialWindow>
+    <content>rateio-shop-android.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>false</fullScreen>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>cpu</renderMode>
+    <autoOrients>false</autoOrients></initialWindow>
+  <icon>
+    <image36x36>Clientes/pro_fashion/android_36.png</image36x36>
+    <image48x48>Clientes/pro_fashion/android_48.png</image48x48>
+    <image72x72>Clientes/pro_fashion/android_72.png</image72x72>
+    <image96x96>Clientes/pro_fashion/android_96.png</image96x96>
+    <image144x144>Clientes/pro_fashion/android_144.png</image144x144>
+    <image192x192>Clientes/pro_fashion/android_192.png</image192x192>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  
+  
+  <android>
+    <manifestAdditions><![CDATA[<manifest>
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+<uses-permission android:name="android.permission.WAKE_LOCK"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>]]></manifestAdditions>
+  </android>
+  
+  
+  <supportedLanguages>pt</supportedLanguages>
+  
+  
+  
+  <extensions>
+    <extensionID>com.milkmangames.extensions.EasyPush</extensionID>
+    <extensionID>com.myflashlab.air.extensions.videoPlayer</extensionID>
+    <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
+  </extensions>
+</application>
